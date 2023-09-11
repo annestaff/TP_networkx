@@ -13,4 +13,5 @@ if __name__ == "__main__":
     weights_file = os.path.join(rwrd, "data/tAML_P3_SNV_polyphen_15390_nodes.tsv")
     outfile = os.path.join(rwrd, "output/RW_tAML_P3_nx.tsv")
 
+    # a comment
     rwr(network_file, weights_file, outfile)
